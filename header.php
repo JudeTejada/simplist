@@ -9,9 +9,11 @@
 </head>
 <body>
     
-<header class="container mt-10 mx-auto">
+<header class="container mt-10 mx-auto main-top">
     <nav class='flex justify-between'>
         <button>Dark Theme</button>
+        <div> 
+            
         <?php wp_nav_menu( 
             array(
                 'container'=> false,
@@ -21,5 +23,8 @@
             )
         
         )?>
+      
+        <div>
+   
     </nav>
 </header>
