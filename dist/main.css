@@ -614,6 +614,34 @@ video {
   }
 }
 
+.container {
+  max-width: 100%;
+}
+
+@media (min-width: 640px) {
+  .container {
+    max-width: 600px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 700px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 800px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 800px;
+  }
+}
+
 .space-y-0 > :not(template) ~ :not(template) {
   --space-y-reverse: 0;
   margin-top: calc(0px * calc(1 - var(--space-y-reverse)));
@@ -21644,6 +21672,17 @@ header .main-nav li a {
 
 header .main-nav li:last-child a {
   margin-right: 0;
+}
+
+.content-area p {
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+}
+
+.content-area h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
 }
 
 @media (min-width: 640px) {
