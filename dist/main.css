@@ -21666,12 +21666,73 @@ video {
           animation: bounce 1s infinite;
 }
 
-header .main-nav li a {
+:root {
+  --bg: #fff;
+  --black: #000;
+  --gray:#2D3748;
+  --btn-theme:#edf2f7;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--black);
+}
+
+p {
+  color: var(--gray);
+}
+
+.dark-theme {
+  --gray: rgb(160, 174, 192);
+  --black: #fff;
+  --bg: #171923;
+  --btn-theme:#292b34;
+}
+
+.main-nav .main-nav li a {
   margin-right: 1em;
 }
 
-header .main-nav li:last-child a {
+.main-nav .main-nav li:last-child a {
   margin-right: 0;
+}
+
+.main-nav .toggleTheme {
+  border-radius: 0.25rem;
+  font-weight: semibold;
+  display: inline-flex;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  align-items: center;
+  justify-content: center;
+  transition: all 250ms;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  position: relative;
+  white-space: nowrap;
+  vertical-align: middle;
+  line-height: 1.2;
+  outline: none;
+  height: 2.5rem;
+  min-width: 2.5rem;
+  font-size: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: var(--btn-theme);
+  padding: 0;
+}
+
+.main-nav .toggleTheme svg {
+  width: 1em;
+  height: 1em;
+  color: currentColor;
+  display: inline-block;
+}
+
+.main-nav h1 {
+  color: var(--black);
 }
 
 .main-top {
@@ -21692,6 +21753,24 @@ header .main-nav li:last-child a {
   font-size: 1.5rem;
   margin-bottom: 1rem;
   font-weight: 700;
+}
+
+footer ul li svg {
+  width: 1.5em;
+  height: 1.5em;
+}
+
+html {
+  transition: all 5s ease;
+}
+
+body {
+  background: var(--bg);
+  color: var(--black);
+}
+
+.main {
+  min-height: 100vh;
 }
 
 @media (min-width: 640px) {

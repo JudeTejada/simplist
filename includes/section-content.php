@@ -14,7 +14,7 @@
              
                 </article>
       
-            
+
   <?php endwhile; else: endif ?>
 
 

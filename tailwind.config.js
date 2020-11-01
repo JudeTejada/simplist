@@ -5,9 +5,13 @@ module.exports = {
   },
   purge: [],
   theme: {
-    extend: {},
+    extend: {
+
+    },
   },
-  variants: {},
+  variants: {
+
+  },
   plugins: [
     function ({ addComponents }) {
       addComponents({
@@ -27,6 +31,9 @@ module.exports = {
           },
         }
       })
-    }
+    },
+
+ 
+    
   ],
 }

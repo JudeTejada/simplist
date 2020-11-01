@@ -19,7 +19,8 @@
     "cross-env": "^7.0.2",
     "laravel-mix": "^5.0.7",
     "sass": "^1.28.0",
-    "sass-loader": "^8.0.2"
+    "sass-loader": "^8.0.2",
+    "tailwindcss-dark-mode": "^1.1.7"
   },
   "dependencies": {
     "postcss-import": "^13.0.0",

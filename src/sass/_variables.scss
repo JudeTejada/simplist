@@ -1,0 +1,28 @@
+
+
+:root {
+    --bg: #fff;
+    --black: #000;
+    --gray:#2D3748;
+    --btn-theme:#edf2f7;
+  }
+
+  
+
+h1,h2,h3,h4,h5,h6{
+    color:var(--black);
+}
+
+p{
+    color: var(--gray);
+}
+
+
+
+
+.dark-theme{
+    --gray: rgb(160, 174, 192);;
+    --black: #fff;
+    --bg: #171923;
+    --btn-theme:#292b34;
+}

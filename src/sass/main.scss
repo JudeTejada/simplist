@@ -2,8 +2,22 @@
 @import "../../node_modules/tailwindcss/components";
 @import "../../node_modules/tailwindcss/utilities";
 
-
+@import './variables';
 @import './header';
-@import './post'
+@import './post';
+@import './footer';
 
 
+
+html{
+    transition: all 5s ease ;
+}
+body{
+    background: var(--bg);
+    color:var(--black);
+   
+}
+
+.main{
+    min-height:100vh;
+}
