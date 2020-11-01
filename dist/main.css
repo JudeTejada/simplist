@@ -21688,15 +21688,25 @@ p {
   --btn-theme:#292b34;
 }
 
-.main-nav .main-nav li a {
+.main-top {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  padding: 1.5rem;
+  background-color: rgba(255, 255, 255, 0.8);
+  z-index: 10;
+}
+
+.main-top .main-nav li a {
   margin-right: 1em;
 }
 
-.main-nav .main-nav li:last-child a {
+.main-top .main-nav li:last-child a {
   margin-right: 0;
 }
 
-.main-nav .toggleTheme {
+.main-top .toggleTheme {
   border-radius: 0.25rem;
   font-weight: semibold;
   display: inline-flex;
@@ -21724,24 +21734,15 @@ p {
   padding: 0;
 }
 
-.main-nav .toggleTheme svg {
+.main-top .toggleTheme svg {
   width: 1em;
   height: 1em;
   color: currentColor;
   display: inline-block;
 }
 
-.main-nav h1 {
+.main-top h1 {
   color: var(--black);
-}
-
-.main-top {
-  position: -webkit-sticky;
-  position: sticky;
-  z-index: 10;
-  top: 0;
-  padding: 2rem 0;
-  background-color: rgba(255, 255, 255, 0.8);
 }
 
 .content-area p {

@@ -11,7 +11,7 @@
 <main class='container mx-auto'> 
 
 
- <nav class='container mt-10 mx-auto main-nav flex justify-between'>
+ <nav class='container mx-auto main-top flex justify-between items-center'>
         <button class='toggleTheme' id='theme-toggler'>
         <svg viewBox="0 0 24 24" focusable="false" role="presentation" aria-hidden="true" class="css-1im46kq">
           
@@ -19,7 +19,7 @@
         
         </svg>
         </button>
-        <div> 
+      
             
         <?php wp_nav_menu( 
             array(
@@ -31,7 +31,7 @@
         
         )?>
 
-        <div>
+        
 </nav>
 
 
