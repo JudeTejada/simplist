@@ -21750,7 +21750,7 @@ p {
 }
 
 .content-area h2 {
-  font-size: 1.5rem;
+  font-size: 2.4rem;
   margin-bottom: 1rem;
   font-weight: 700;
 }
@@ -21758,6 +21758,7 @@ p {
 footer ul li svg {
   width: 1.5em;
   height: 1.5em;
+  color: #949fb0;
 }
 
 html {

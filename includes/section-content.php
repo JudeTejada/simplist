@@ -4,7 +4,7 @@
             the_post(); ?>
                 <article class='mb-3'>
                     <a href="<?php the_permalink(); ?>">
-                      <h3 class='text-3xl'><?php the_title(); ?></h3> 
+                      <h3 class='text-3xl hover:underline'><?php the_title(); ?></h3> 
                      </a>
                    
 

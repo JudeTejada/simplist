@@ -1,5 +1,5 @@
 
-<footer class='mt-20'>
+<footer class='py-8'>
 
 <ul class='flex justify-center'>
     <li class='mr-3'>
