@@ -5,7 +5,7 @@
 
 
 function loadAssets(){
-    wp_enqueue_style( 'theme', get_template_directory_uri().'/dist/main.css', [], 1, 'all');
+    wp_enqueue_style( 'theme', get_template_directory_uri().'/dist/main.css', [], rand(111,9999), 'all');
 
 }   
 

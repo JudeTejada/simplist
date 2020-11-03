@@ -21671,6 +21671,7 @@ video {
   --black: #000;
   --gray:#2D3748;
   --btn-theme:#edf2f7;
+  --bg-nav: rgba(255,255,255,0.8);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -21686,6 +21687,7 @@ p {
   --black: #fff;
   --bg: #171923;
   --btn-theme:#292b34;
+  --bg-nav: var(--bg);
 }
 
 .main-top {
@@ -21694,7 +21696,7 @@ p {
   top: 0;
   width: 100%;
   padding: 1.5rem;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: var(--bg-nav);
   z-index: 10;
 }
 

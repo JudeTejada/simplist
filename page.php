@@ -1,7 +1,7 @@
 <?php get_header();?>
 
 
-<section class="content-area mt-10">
+<section class="content-area mt-10 p-8">
 
 <?php 
     if( have_posts() ) :

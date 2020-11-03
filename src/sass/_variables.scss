@@ -5,6 +5,7 @@
     --black: #000;
     --gray:#2D3748;
     --btn-theme:#edf2f7;
+    --bg-nav: rgba(255,255,255,0.8);
   }
 
   
@@ -21,8 +22,11 @@ p{
 
 
 .dark-theme{
+
     --gray: rgb(160, 174, 192);;
     --black: #fff;
     --bg: #171923;
     --btn-theme:#292b34;
+    --bg-nav: var(--bg);
+   
 }
